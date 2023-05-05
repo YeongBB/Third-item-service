@@ -40,4 +40,7 @@ public class ItemRepository {
         store.clear();
     }
 
+    public void delete(Long itemId){
+        store.remove(itemId);
+    }
 }
